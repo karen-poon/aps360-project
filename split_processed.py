@@ -28,7 +28,7 @@ for f in children_to_delete_list:
 
 print("deletion done.")
 
-########## split children data ###########
+########## create new folders data ###########
 new_path = os.getcwd() + "/new_processed"
 print("Creating a new folder called new_processed...")
 if os.path.exists(new_path):
