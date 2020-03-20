@@ -9,14 +9,14 @@ import torchvision.models
 import torchvision.transforms as transforms
 
 def get_data_loader(path, batch_size):
-    transform = transforms.Compose([transforms.Resize((128,128)), transforms.ToTensor()])
+    transform = transforms.Compose([transforms.Resize((224,224)), transforms.ToTensor()])
     dataset = torchvision.datasets.ImageFolder(path, transform=transform)
     loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, num_workers=1, shuffle=True)
     return loader
 
 def create_alex_tensors(loader, data_type):
     n = 0
-    for img, label in train_loader:
+    for img, label in loader:
         features = alexnet.features(img)
         features_tensor = torch.from_numpy(features.detach().numpy())
 
