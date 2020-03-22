@@ -16,8 +16,8 @@ Please don't rename this folder for now.
 ```shell
 python split_processed.py
 ```
-5. Now run the generate_alexnet.py program. It will compute and save the newly computed AlexNet features into a new folder called 'alex'.
-This will take some time to run.
+~5. Now run the generate_alexnet.py program. It will compute and save the newly computed AlexNet features into a new folder called 'alex'.
+This will take some time to run.~ We are not working with AlexNet right now.
 ```shell
 python generate_alexnet.py
 ```
