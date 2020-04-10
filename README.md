@@ -14,7 +14,7 @@ This file contains all the training, testing, and sample output of our classific
 This file contains training, testing, and sample output of our regression model.
 
 ### processUTKFace.py
-This file resizes the image to 128x128, and splits them into training, validation, and testing folders.
+This file resizes the image to 128x128, turns them to grayscale and splits them into training, validation, and testing folders.
 
 #### To my lovely team members:
 To process our new dataset, do the following:
