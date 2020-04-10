@@ -26,7 +26,7 @@ cd path/to/project/directory
 ```
 4. Run the processUTKFace.py program. It will change the image to grayscale and resize them to 128x128. It will also split them into training, validation, and test folders. It won't take long :)
 ```shell
-python split_processed.py
+python processUTKFace.py
 ```
 5. You are all set :)
 
